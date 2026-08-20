@@ -300,11 +300,20 @@ body {
 .tabs-picture {
     width: 25%;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .tabs-picture i {
-    font-size: 120px;
+    font-size: 125px;
     color: #333;
+
+    -webkit-box-reflect:
+        below -15px
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.28),
+            rgba(0, 0, 0, 0)
+        );
 }
 
 
@@ -834,6 +843,7 @@ body {
 
     .tabs-picture {
         margin-top: 30px;
+        padding-bottom: 80px;
     }
 
     .sub-list-image,
