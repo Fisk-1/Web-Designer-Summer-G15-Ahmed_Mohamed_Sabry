@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Form</title>
+</head>
+
+<body>
+
+<form>
+
+    <div>
+        <label>First Name :</label>
+        <input type="text" placeholder="Enter your first name">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Last Name :</label>
+        <input type="text" placeholder="Enter your last name">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Email :</label>
+        <input type="email" placeholder="Enter your email">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Password :</label>
+        <input type="password" placeholder="Enter your password">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Gender :</label>
+
+        <input type="radio" name="gender">
+        <label>Male</label>
+
+        <input type="radio" name="gender">
+        <label>Female</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Courses :</label>
+
+        <input type="checkbox">
+        <label>HTML</label>
+
+        <input type="checkbox">
+        <label>CSS</label>
+
+        <input type="checkbox">
+        <label>JavaScript</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Age :</label>
+        <input type="number">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Mobile :</label>
+        <input type="text" pattern="(010|011|012|015)[0-9]{8}" maxlength="11">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Track :</label>
+
+        <select>
+            <option disabled selected>Choose your track</option>
+            <option>Frontend</option>
+            <option>Backend</option>
+            <option>Mobile</option>
+            <option>Network</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Upload Image :</label>
+        <input type="file" accept=".png">
+    </div>
+
+    <br>
+
+    <fieldset>
+
+        <legend>Search</legend>
+
+        <input type="search" list="search">
+
+        <datalist id="search">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Frontend">
+        </datalist>
+
+    </fieldset>
+
+    <br>
+
+    <div>
+        <label>Comment :</label>
+        <br>
+        <textarea cols="30" rows="5"></textarea>
+    </div>
+
+    <br>
+
+    <input type="submit" value="Submit">
+
+    <input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
