@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+/* Road */
+
+.road {
+    width: 100%;
+    height: 390px;
+
+    background-color: #000000;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Car */
+
+.car {
+    width: 220px;
+
+    position: absolute;
+    bottom: 40px;
+    left: -250px;
+
+    animation: carMove 3s linear infinite;
+}
+
+
+/* Animation */
+
+@keyframes carMove {
+
+    0% {
+        left: -250px;
+    }
+
+    100% {
+        left: 100%;
+    }
+
+}
