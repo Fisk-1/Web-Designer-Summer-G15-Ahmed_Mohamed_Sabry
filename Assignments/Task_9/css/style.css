@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+/* Cards Section */
+
+.cards-section {
+    padding: 100px 0;
+}
+
+
+/* Card */
+.card {
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0;
+}
+
+
+/* Image */
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Dark Layer */
+
+.card::before {
+    content: "";
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    z-index: 1;
+}
+
+
+/* Content */
+
+.card-img-overlay {
+    z-index: 2;
+}
+
+
+/* Travel */
+
+.travel {
+    background-color: #ffffff;
+    color: #4d79ff;
+
+    padding: 5px 15px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+
+/* Title */
+
+.card-title {
+    color: #ffffff;
+
+    font-size: 20px;
+    line-height: 1.4;
+
+    margin-bottom: 20px;
+}
+
+
+/* Date */
+
+.card-text {
+    color: #dddddd;
+
+    font-size: 12px;
+}
